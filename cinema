@@ -1,0 +1,89 @@
+Algoritmo "cinema"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 24/11/2022
+Var
+   // Seção de Declarações das variáveis
+   filmeUM,filmeDOIS : inteiro
+   filmeTRES : inteiro
+   credito, debito: inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval(" vamos aproveitar o dia de ferias")
+   escreval("")
+   escreval ("iremos ao cinema")
+   escreval ("qual filme iremos assistir: ")
+   escreval ("1: a noiva")
+
+   escreval("2: rambo")
+
+   escreval("3: cinderella")
+   leia(filmeUM)
+
+   escolha filmeUM
+   caso 1
+      escreval("quer pipoica e refrigerante: ")
+      escreval("1..sim")
+      escreval("2..nao")
+      leia(filmeUM)
+      escolha filmeUM
+      caso 1
+         escreval("pipoca")
+         escreval("refrigerante")
+         escreval("vai pagar como")
+         escreval("com o credito:")
+         leia(credito)
+         ou
+         escreval("com o debito:")
+         leia(debito)
+         escreval("aproveite o filme com seu lanche")
+
+      caso 2
+         escreval("aproveite o filme sem pipoca")
+      fimescolha
+   caso 2
+     escreval("quer pipoica e refrigerante: ")
+      escreval("1..SIM")
+      escreval("2..NAO")
+      leia(filmeDOIS)
+      escolha filmeDOIS
+      caso 1
+       escreval("pipoca")
+         escreval("refrigerante")
+         escreval("vai pagar como:")
+         escreval("com o credito:")
+         leia(credito)
+         ou
+         escreval("com o debito:")
+         leia(debito)
+         escreval("aproveite o filme com seu lanche")
+
+         caso 2
+       escreval("aproveite o filme sem pipoca")
+      fimescolha
+      caso 3
+        escreval("quer pipoica e refrigerante: ")
+      escreval("1..SIM")
+      escreval("2..NAO")
+      leia(filmeTRES)
+      escolha filmeTRES
+      caso 1
+       escreval("pipoca")
+         escreval("refrigerante")
+         escreval("vai pagar como")
+         escreval("com o credito:")
+         leia(credito)
+         ou
+         escreval("com o debito:")
+         leia(debito)
+         escreval("aproveite o filme com seu lanche")
+
+         caso 2
+       escreval("aproveite o filme sem pipoca")
+      fimescolha
+fimescolha
+fimescolha
+Fimalgoritmo
+ fimalgoritmo
