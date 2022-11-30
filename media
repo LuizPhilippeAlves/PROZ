@@ -12,9 +12,9 @@ Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 enquanto (valor>=0) faca
 escreva(" valor digitado é: ")
+leia(valor)
  x<- x + valor entao
 y<- y +1
-  fimse
  fimenquanto
    media <- x / y
    escreval(" a media dos  ",y," numero digitados é de" , media)
