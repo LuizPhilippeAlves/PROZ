@@ -1,0 +1,33 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 30/11/2022
+Var
+// Seção de Declarações das variáveis 
+limite: inteiro
+numero: inteiro
+maior: inteiro
+menor: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+enquanto  (limite<5) faca
+limite <- limite+1
+escreva("digite um numero: ")
+leia(numero)
+se menor= 0 entao
+menor <- numero
+fimse
+se (numero < menor)entao
+menor <- numero
+senao
+se (numero> maior) entao
+maior <- numero
+fimse
+ fimse
+ fimenquanto
+ escreval(" o maior numero será: ",maior)
+ escreval("o menor numero será: ",menor)
+
+Fimalgoritmo
